@@ -1,0 +1,19 @@
+Order information:
+
+Item: We do not forgive, size: l, amount: 1
+Price: 37
+
+Shipping: 7 EUR
+Total price: 37 EUR
+With shipping: 44 EUR
+
+Payed with PayPal
+
+Buyer information:
+Nikola Šimunko
+Email: nix_kc@hotmail.com
+Address: Ulica Ciglana 1a, Koprivnica, 48000, Andorra
+Phone: 
+
+Comment: 
+

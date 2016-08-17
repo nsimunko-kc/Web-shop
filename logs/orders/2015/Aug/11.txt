@@ -1,0 +1,17 @@
+Order information:
+
+Item: DiveIntoFame guns, size: m, amount: 1
+Price: 37
+
+Shipping: 10 EUR
+Total price: 37 EUR
+With shipping: 47EUR
+
+Buyer information:
+Nikola Šimunko
+Email: nix_kc@hotmail.com
+Address: Ulica Ciglana 1a, Koprivnica, 48000, USA
+Phone: 
+
+Comment: 
+

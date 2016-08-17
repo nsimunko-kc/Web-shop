@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.navigation {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navigation ul {
+    list-style: none;
+    margin-right: 1em;
+}
+.navigation ul li {
+    display: inline-block;
+    float: right;
+    border-bottom: 1px solid black;
+}
+.navigation ul li:hover {
+    border-bottom: 1px solid #ffffff;
+}
+.navigation ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 17px;
+    font-weight: normal;
+}
+.navigation a:hover {
+    color: #c5c5c5;
+}
+
+
+.triangle-up-left {
+    width: 0;
+    height: 0;
+    padding-bottom: 45%;
+    padding-left: 45%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.triangle-up-left:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: -650px;
+    border-bottom: 500px solid transparent;
+    border-left: 500px solid #000000;
+}
+
+.triangle-down-right {
+    width: 40%;
+    height: 0;
+    padding-top:40%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    right: -120px;
+}
+.triangle-down-right:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top:-500px;
+    border-top: 500px solid transparent;
+    border-right: 500px solid #000000;
+}
+
+main img#logo-img {
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    width: 17%;
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    max-width: 650px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+
+section article {
+    width: 300px;
+    line-height: 140%;
+}
+
+article h3 {
+    text-decoration: underline;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+}
+article#first-p {
+    float: left;
+    margin-top: 5em;
+}
+article#second-p {
+    float: right;
+    margin-top: 3em;
+    margin-right: -20px;
+}
+
+#first-p img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 45em) {
+    section {
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    article {
+        clear: both;
+        width: 100% !important;
+        margin: 0;
+        float: none !important;
+        padding-left: 20px;
+    }
+
+    article p {
+        width: 90%;
+        margin: 0;
+    }
+
+    #logo-img {
+        display: block;
+        position: static !important;
+        width: 50% !important;
+        margin: 0 auto !important;
+    }
+}

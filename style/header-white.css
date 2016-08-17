@@ -1,0 +1,128 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif, Helvetica, Arial;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+main {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#header-left {
+    background-color: #ffffff;
+    width: 50%;
+    float: left;
+    display: inline;
+    z-index: 2;
+}
+
+#header-right {
+    background-color: #ffffff;
+    width: 50%;
+    float: right;
+    display: inline;
+    z-index: 2;
+}
+
+#header-wrapper-left {
+    width: 600px;
+    float: right;
+    z-index: 3;
+}
+
+#header-wrapper-right {
+    width: 600px;
+    float: left;
+    z-index: 3;
+}
+
+img.header-logo {
+    height: 50px;
+    margin: 10px 0;
+}
+img#header-img-left {
+    float: right;
+}
+img#header-img-right {
+    float: left;
+}
+
+.navigation {
+    clear: both;
+}
+
+ul.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul#nav-list-left {
+    color: black;
+    overflow: hidden;
+}
+ul#nav-list-left li {
+    float: right;
+}
+ul#nav-list-right {
+    color: black;
+    overflow: hidden;
+}
+ul#nav-list-right li {
+    float: left;
+}
+
+li.nav-list-link {
+    display: inline-block;
+
+}
+li.nav-list-link a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+ul#nav-list-left a {
+    color: black;
+    border-bottom: 1px solid #ffffff;
+}
+ul#nav-list-left a:hover {
+    border-bottom: 1px solid black;
+    color: #545454;
+}
+ul#nav-list-left a:active {
+    font-weight: bold;
+    color: #545454;
+}
+ul#nav-list-right a {
+    color: black;
+    border-bottom: 1px solid white;
+}
+ul#nav-list-right a:hover {
+    border-bottom: 1px solid black;
+    color: #545454;
+}
+ul#nav-list-right a:active {
+    font-weight: bold;
+    color: #545454;
+}
+

@@ -1,0 +1,17 @@
+Order information:
+
+Item: We do not forgive, size: l, amount: 1
+Price: 37
+
+Total price: 37 EUR
+
+Payed with PayPal
+
+Buyer information:
+Nikola Šimunko
+Email: nix_kc@hotmail.com
+Address: Ulica Ciglana 1a, Koprivnica, 48000, Georgia
+Phone: 
+
+Comment: 
+

@@ -1,0 +1,46 @@
+
+
+section {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+p#disclaimer {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+p#shipping-price {
+    font-size: 18px;
+}
+
+/* label color */
+.input-field label {
+   color: #000;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+}
+
+.invalid label {
+	color: red;
+}
+.invalid i {
+	color: red;
+}
+/* label focus color */
+.invalid input[type=text]:focus + label {
+	color: red;
+}
+/* label underline focus color */
+.invalid input[type=text]:focus {
+	border-bottom: 1px solid red;
+	box-shadow: 0 1px 0 0 red;
+}
+/* icon prefix focus color */
+.invalid .prefix.active {
+	color: red;
+}

@@ -1,0 +1,22 @@
+Order information:
+
+Item: I can be anything you want, size: l, amount: 2
+Price: 74
+
+Item: We do not forgive, size: l, amount: 1
+Price: 37
+
+Shipping: 5 EUR
+Total price: 111 EUR
+With shipping: 116 EUR
+
+Payed with PayPal
+
+Buyer information:
+Nikola Šimunko
+Email: nix_kc@hotmail.com
+Address: Ulica Ciglana 1a, Koprivnica, 48000, Finland
+Phone: 
+
+Comment: 
+

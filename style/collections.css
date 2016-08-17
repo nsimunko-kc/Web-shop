@@ -1,0 +1,75 @@
+* {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+    padding-top: 120px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div.collection-div {
+	background-color: white;
+	padding: 10px !important;
+	border: 1px solid white;
+}
+div.collection-div:hover {
+	background-color: rgba(0,0,0, 0.2);
+	border: 1px solid white;
+	qtransition: all 0.3s ease-in-out;
+}
+div.collection-div:hover figcaption {
+	opacity: 1.0;
+	padding-top: 10px;
+}
+div.collection-div:hover img {
+	-webkit-filter: grayscale(1) blur(1px);
+}
+
+figure {
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+figure a {
+	height: 0;
+}
+figure img {
+	width: 100%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+figure figcaption {
+	opacity: 0.0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0, 0.4);
+	width: 100%;
+	height: 98%;
+	color: white;
+	font-family: 'Slabo 27px', sans-serif;
+	padding: 10px;
+	padding-top: 50%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 999px) {
+	figcaption {
+		padding: 20px !important;
+		opacity: 1.0 !important;
+	}
+	figcaption h5 {
+		font-size: 24pt;
+	}
+	figure {
+		
+	}
+}

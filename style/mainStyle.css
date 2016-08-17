@@ -1,0 +1,105 @@
+
+@import url('header.css');
+
+section {
+    padding-top: 140px;
+    padding-bottom: 100px;
+    position: relative;
+    min-height: 1200px;
+}
+section#section-left {
+    background-color: #ffffff;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+section#section-right {
+    background-color: black;
+    width: 50%;
+    float: right;
+    position: relative;
+    height: 100vh;
+}
+
+#section-wrapper-left {
+    width: 100%;
+    float: right;
+    position: relative;
+}
+
+#section-wrapper-right {
+    width: 600px;
+    float: left;
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    right: 50px;
+    color: black;
+}
+.right {
+    position: absolute;
+    left: 50px;
+    color: #ffffff;
+}
+
+h5.black-bottom {
+    border-bottom: 1px solid black;
+    color: black;
+    padding-bottom: 4px;
+}
+h5.white-bottom {
+    border-bottom: 1px solid white;
+    color: white;
+    padding-bottom: 4px;
+}
+
+
+.instagram-box {
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+    width: 402px;
+    clear: both;
+}
+
+.instagram-tags-box {
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    clear: both;
+    clear: both;
+}
+
+.news-feed-box {
+    margin-top: 10px;
+    width: 400px;
+    border: 1px solid white;
+    color: white;
+    padding: 0px 10px;
+    margin-left: 50px;
+    clear: both;
+}
+.news-feed-box p {
+    border-top: 1px solid white;
+    padding-top: 5px;
+}
+
+.twitter-box {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 50px;
+    clear: both;
+    clear: both;
+}
+
+div.facebook-box {
+    width: 400px;
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    margin-left: 50px;
+    clear: both;
+}
+

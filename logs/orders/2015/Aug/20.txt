@@ -1,0 +1,25 @@
+Order information:
+
+Item: Expect Me, size: l, amount: 1
+Price: 37
+
+Item: I can be anything you want, size: l, amount: 1
+Price: 37
+
+Item: DiveIntoFame guns, size: m, amount: 1
+Price: 37
+
+Shipping: 7 EUR
+Total price: 111 EUR
+With shipping: 118 EUR
+
+Payed with PayPal
+
+Buyer information:
+Nikola Šimunko
+Email: nix_kc@hotmail.com
+Address: Ulica Ciglana 1a, Koprivnica, 48000, Albania
+Phone: 
+
+Comment: 
+

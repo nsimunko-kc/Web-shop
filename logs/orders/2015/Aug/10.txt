@@ -1,0 +1,20 @@
+Order information:
+
+Item: I can be anything you want, size: l, amount: 3
+Price: 111
+
+Item: DiveIntoFame guns, size: m, amount: 1
+Price: 37
+
+Total price: 148 EUR
+
+Payed with PayPal
+
+Buyer information:
+Nikola Šimunko
+Email: nix_kc@hotmail.com
+Address: Ulica Ciglana 1a, Koprivnica, 48000, Croatia
+Phone: 
+
+Comment: 
+
